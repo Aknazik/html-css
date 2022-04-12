@@ -1,0 +1,286 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --sales-bkg-color: #4F4745;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+    
+.header {
+    background-color: #222222;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__logo {
+    margin: 0 41px 0 231px;
+}
+
+.header__link {
+    margin: 0 0 0 34px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__button {
+    border: none;
+    background-color: transparent;
+}
+.header__nav-item{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 62px 0;
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    padding-left: 92px;
+    display: flex;
+    align-items: center;
+    background-color: #F1E4E6;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__subtitle {
+    display: block;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: rgb(192, 30, 100);
+}
+
+.sales__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sales__item{
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 32px 0;
+    text-transform: uppercase;
+}
+
+.sales__item-title{ 
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F
+}
+
+.sales__item-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.sales__item--woman{
+    background-image: url(../img/women.jpg);
+}
+
+.sales__item--man{
+    background-image: url(../img/man.jpg);
+}
+
+.sales__item--kids{
+    background-image: url(../img/kids.jpg);
+
+}
+.sales__item--accesories{
+    background-image: url(../img/accesories.jpg);
+    width: 100%;
+}
+
+.catalog__title-main{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 97px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.catalog__text-main{
+    color: #9F9F9F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.catalog__title{
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: black;
+    margin: 24px 0 12px 0;
+}
+
+.catalog__text{
+    color: #5D5D5D;
+    margin-bottom: 18px;
+}
+
+.catalog__price{
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.catalog__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.catalog__item{
+    width: 360px;
+    height: 420px;
+    padding-bottom: 190px; 
+}
+
+.catalog__button{
+    text-transform: capitalize;
+    border: 1px solid #FF6A6A;
+    color: #F26376;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.inform{
+    padding: 95px 0 0 0;
+}
+
+.inform__list{
+    display: flex;
+    justify-content: space-around;
+    height: 341px;
+    background: #222224;
+    align-items: center;
+}
+
+.inform__item{
+    text-align: center;
+}
+
+.inform__item-img{
+    color: #F16D7F;
+}
+
+.inform__subtitle{
+    color: #FBFBFB;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    padding: 25px 0 16px 0;
+}
+
+.inform__text{
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.avatar{
+    display: flex;
+    background-image: url(../img/bkg.jpg);
+    flex-direction: column;
+}
+
+.avatar__heading{
+    justify-content: space-between;
+}
+
+.avatar__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.aside{
+    background: #222224;
+    
+}
+
+.aside__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.aside__list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
